@@ -1,4 +1,4 @@
-import NUmberSelector from "./NUmberSelector";
+import NumberSelector from "./NumberSelector";
 import RoleDice from "./RoleDice";
 import TotalScore from "./TotalScore";
 import styled from "styled-components";
@@ -42,7 +42,7 @@ const GamePlay = () => {
     <MainContainer>
       <div className="top_section">
         <TotalScore score={score} />
-        <NUmberSelector
+        <NumberSelector
           setError={setError}
           error={error}
           selectedNumber={selectedNumber}
